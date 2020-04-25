@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Data Pasien Covid19</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form method="post" action="db.php" >
+	<div class="frm" align="center">
+		<ul>
+		<li>
+			<label>Pilih Daerah</label>
+			<select name="daerah">
+				<option> DKI Jakarta</option>
+				<option>Jawa Barat</option>
+				<option>Banten</option>
+				<option>Jawa Tengah</option>
+			</select>
+		</li>
+		<li>
+			<label>Jumlah Positif</label>
+			<input type="text" name="positif">
+		</li>
+		<li>
+			<label>Jumlah Di Rawat</label>
+			<input type="text" name="rawat">
+		</li>
+		<li>
+			<label>Jumlah Sembuh</label>
+			<input type="text" name="sembuh">
+		</li>
+		<li>
+			<label>Jumlah Meninggal</label>
+			<input type="text" name="meninggal">
+		</li>
+		<li>
+			<label>Nama Operator</label>
+			<input type="text" name="operator">
+		</li>
+		<li>
+			<label>NIM Mahasiswa</label>
+			<input type="text" name="nim">
+		</li>
+		<li>
+			<button type="submit" name="kirim" class="btn">Kirim</button>
+		</li>
+	</ul>
+	</div>
+</form>
+</body>
+</html>
